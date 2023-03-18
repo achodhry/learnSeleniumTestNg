@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features=".//Features/Login.feature",
+		features="./Features/Login.feature",
 		glue="com.orangeHRM.stepdefinitions",
 		dryRun=false,
 		monochrome=true
